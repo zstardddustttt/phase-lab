@@ -1,0 +1,10 @@
+[package]
+name = "phase-lab"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cpal = { version = "*", features = ["asio"] }
+eframe = "0.29.1"
+egui_extras = { version = "*", features = ["all_loaders"]}
+symphonia = {version = "*", features = ["all"]}
